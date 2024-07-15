@@ -23,7 +23,7 @@ const SignIn = () => {
                                 <input type="password" placeholder="Password" name="password" className="input input-bordered" required />
                             </div>
                             <div className="form-control mt-1">
-                                <button className="btn btn-primary bg-[#4b87fd] border-[#4b87fd] hover:bg-[#0356f9] text-white">Login</button>
+                                <button className="btn btn-primary bg-black border-black hover:bg-transparent text-white hover:border-black hover:text-black">Login</button>
                             </div>
                         </form>
                         <div className="flex items-center justify-between px-4 md:px-8 mb-4">
