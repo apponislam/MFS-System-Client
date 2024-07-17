@@ -6,6 +6,8 @@ import "./index.css";
 import Home from "./Components/Home/Home.jsx";
 import SignIn from "./Components/SignIn/SignIn.jsx";
 import SignUp from "./Components/SignUp/SignUp.jsx";
+import AuthProvider from "./AuthProvider/AuthProvider.jsx";
+import { HelmetProvider } from "react-helmet-async";
 
 const router = createBrowserRouter([
     {
@@ -30,6 +32,10 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById("root")).render(
     <React.StrictMode>
-        <RouterProvider router={router} />
+        <AuthProvider>
+            <HelmetProvider>
+                <RouterProvider router={router} />
+            </HelmetProvider>
+        </AuthProvider>
     </React.StrictMode>
 );

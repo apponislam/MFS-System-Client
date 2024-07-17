@@ -18,9 +18,9 @@ const SignIn = () => {
                             </div>
                             <div className="form-control">
                                 <label className="label">
-                                    <span className="label-text">Password</span>
+                                    <span className="label-text">Pin</span>
                                 </label>
-                                <input type="password" placeholder="Password" name="password" className="input input-bordered" required />
+                                <input type="password" placeholder="Pin" name="pin" className="input input-bordered" required />
                             </div>
                             <div className="form-control mt-1">
                                 <button className="btn btn-primary bg-black border-black hover:bg-transparent text-white hover:border-black hover:text-black">Login</button>

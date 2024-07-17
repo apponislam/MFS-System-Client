@@ -17,10 +17,10 @@ function App() {
                         </label>
                         <div className="flex justify-between gap-3 lg:flex-1">
                             <Link to="/signin">
-                                <button className="btn bg-black border border-black text-white hover:bg-transparent hover:text-black hover:border-black">Sign In</button>
+                                <button className="btn bg-black border border-black text-white hover:bg-transparent hover:text-black hover:border-black">Log In</button>
                             </Link>
                             <Link to="/signup">
-                                <button className="btn bg-black border border-black text-white hover:bg-transparent hover:text-black hover:border-black">Sign Up</button>
+                                <button className="btn bg-black border border-black text-white hover:bg-transparent hover:text-black hover:border-black">Registration</button>
                             </Link>
                         </div>
                     </div>
@@ -37,10 +37,10 @@ function App() {
                             <NavLink to="/">Home</NavLink>
                         </li>
                         <li>
-                            <NavLink to="/signin">Sign In</NavLink>
+                            <NavLink to="/signin">Log In</NavLink>
                         </li>
                         <li>
-                            <NavLink to="/signup">Sign Up</NavLink>
+                            <NavLink to="/signup">Registration</NavLink>
                         </li>
                     </ul>
                 </div>
